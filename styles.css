@@ -1,54 +1,27 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-.navbar {
-    margin-bottom: 0;
+.hero-section {
+    background: url('img/increaz.ai.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
 }
 
-.logo {
-    max-width: 150px;
-}
-
-.hero {
-    background: #007bff;
-    color: #fff;
-    padding: 60px 0;
-}
-
-.hero h1 {
-    font-size: 3em;
+.feature-box {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
-.hero p {
-    font-size: 1.25em;
-}
-
-.icon-box {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.icon-box i {
+.feature-box .icon {
     color: #007bff;
-}
-
-.testimonial {
-    background: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 footer {
-    background: #343a40;
-    color: #fff;
+    background-color: #f8f9fa;
+    color: #6c757d;
 }
