@@ -1,129 +1,482 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Increaz.ai - AI Automation for Efficiency</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./increaz.ai.png">
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="./increaz.ai.png" width="30" height="30" class="d-inline-block align-top" alt="Increaz.ai">
-            Increaz.ai
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#features">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Increaz.ai - AI-Powered Business Automation Tools</title>
+        <meta name="description" content="Increaz.ai is an AI-Powered tools for business automation." /> 
 
-    <!-- Hero Section -->
-    <header class="hero-section text-center">
-        <div class="container">
-            <h1 class="display-4">AI Automation for Ultimate Efficiency</h1>
-            <p class="lead">Transforming businesses with cutting-edge AI solutions.</p>
-            <a href="#features" class="btn btn-primary btn-lg">Learn More</a>
-        </div>
-    </header>
+        <!--Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
 
-    <!-- Features Section -->
-    <section id="features" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="feature-box text-center">
-                        <i class="icon fas fa-robot fa-3x"></i>
-                        <h3>Automated Processes</h3>
-                        <p>Streamline your business operations with AI-powered automation.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="feature-box text-center">
-                        <i class="icon fas fa-chart-line fa-3x"></i>
-                        <h3>Data Insights</h3>
-                        <p>Gain actionable insights from your data to drive better decisions.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="feature-box text-center">
-                        <i class="icon fas fa-cogs fa-3x"></i>
-                        <h3>Custom Solutions</h3>
-                        <p>Get tailored AI solutions that fit your unique business needs.</p>
+        <!--vendors styles-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap CSS / Color Scheme -->
+        <link rel="stylesheet" href="css/default.css" id="theme-color">
+    </head>
+    <body dir="rtl">
+
+        <!--navigation-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top sticky-navigation">
+            <a class="navbar-brand mx-auto" href="index.html">
+                Increaz.ai
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" 
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">אודות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">שירותים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#process">תהליך</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#blog">בלוג</a>
+                    </li> -->
+                </ul>
+                <form class="form-inline">
+                    <p class="mb-0 mx-3"><a class="page-scroll font-weight-bold" href="#contact">התחל עוד היום</a></p>
+                </form>
+            </div>
+        </nav>
+
+        <!--hero header-->
+        <section class="pt-7 pt-md-8" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto my-auto text-center">
+                        <h1>תנו לעסק שלכם לצמוח עם פתרונות אוטומציה מתקדמים.</h1>
+                        <p class="lead mt-4 mb-5">
+                            ב-Increaz.ai, האוטומציה שלנו עושה את כל העבודה, כך שאתם יכולים להתמקד בהצלחה העסקית שלכם.
+                        </p>
+                        <p><img class="img-fluid" src="img/mockup.png" alt="Mockup" /></p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>About Us</h2>
-                    <p>Increaz.ai is dedicated to bringing efficiency and innovation to businesses through advanced AI technologies. Our team of experts works tirelessly to provide custom solutions that help you stay ahead of the competition.</p>
+        <!-- about section -->
+        <section class="pb-7" id="about">
+            <div class="container">
+                <hr class="my-6"/>
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h4 class="dot-circle font-weight-normal">חסכו זמן והתמקדו במה שחשוב באמת – Increaz.ai כאן כדי לטפל בכל השאר.</h4>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="./increaz.ai.png" class="img-fluid" alt="Increaz.ai">
+
+                <div class="row mt-5">
+                    <div class="col-md-6 order-2 order-md-1 my-md-auto">
+                        <h3>הקונספט שמניע אותנו</h3>
+                        <p class="text-muted lead">
+                            אנחנו מבינים את הצרכים הייחודיים של העסק שלכם ומספקים פתרונות אוטומציה מותאמים אישית, בדיוק כמו שאתם צריכים.</p>
+                        <a href="#" class="btn btn-primary">למדו יותר על איך זה עובד</a>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="img/google-design.jpeg" class="img-fluid d-block mx-auto" alt="Google Design"/>
+                    </div>
+                    <!-- <div class="col-md-6 order-3 mx-auto border-top border-bottom mt-5 mt-md-0 py-4">
+                        <div class="review text-center">
+                            <p class="quote">Praesent vulputate dolor velit, in condimentum odio pellentesin condimentum odio pellentesque libero.</p>
+                            <div class="mt-4 d-flex flex-row align-items-center justify-content-center">
+                                <img src="img/client-1.jpg" class="img-review rounded-circle mr-2" alt="Client 1"/>
+                                <span class="text-muted">Ryan Siddle, Google Design</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/facebook-messenger.jpeg" class="img-fluid d-block mx-auto" alt="Facebook Messenger"/>
+                    </div>
+                    <div class="col-md-6 my-md-auto">
+                        <h3>שיטות העבודה שלנו</h3>
+                        <p class="text-muted lead">
+                            השיטות שלנו מוכחות, התוצאות שלכם מובטחות. כל פתרון עובר תכנון קפדני, פיתוח מותאם אישית, ובדיקות מוקפדות, כדי לוודא שהעסק שלכם פועל חלק, בלי פשרות.
+                        </p>
+                        <a href="#" class="btn btn-primary">למדו עוד על תהליך העבודה</a>
+                    </div>
+                    <!-- <div class="col-md-6 mx-auto border-top border-bottom mt-5 mt-md-0 py-4">
+                        <div class="review text-center">
+                            <p class="quote">Integer id ante posuere, vestibulum mauris eget, efficitur felis.</p>
+                            <div class="mt-4 d-flex flex-row align-items-center justify-content-center">
+                                <img src="img/client-2.jpg" class="img-review rounded-circle mr-2" alt="Client 2"/>
+                                <span class="text-muted">Ameli Mao, VP Facebook</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 order-2 order-md-1 my-md-auto">
+                        <h3>ההתחייבות שלנו לאיכות</h3>
+                        <p class="text-muted lead">
+                            מחויבים לאיכות בלתי מתפשרת, עם פתרונות מותאמים אישית שמביאים לתוצאות מצוינות. שקיפות ותכנון מדויק הם הבסיס לכל מה שאנחנו עושים.
+                        </p>
+                        <a href="#" class="btn btn-primary">התחילו עם פתרונות איכותיים</a>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="img/twitter-mobile.jpeg" class="img-fluid d-block mx-auto" alt="Twitter Mobile"/>
+                    </div>
+                    <!-- <div class="col-md-6 order-3 mx-auto border-top border-bottom mt-5 mt-md-0 py-4">
+                        <div class="review text-center">
+                            <p class="quote">Praesent vulputate dolor velit, pellentesin condimentum odio pellentesque libero.</p>
+                            <div class="mt-4 d-flex flex-row align-items-center justify-content-center">
+                                <img src="img/client-3.jpg" class="img-review rounded-circle mr-2" alt="Client 3"/>
+                                <span class="text-muted">Kathrine Jones, Twitter</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="row mt-6">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h4>רוצה להתחיל עכשיו?</h4>
+                        <p class="lead text-muted">מוכנים לקחת את העסק שלכם לשלב הבא? נשמח להיות שם יחד איתכם.</p>
+                        <a href="#" class="btn btn-primary">צרו קשר</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Contact Us</h2>
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Name">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        <!--services section-->
+        <section class="bg-light py-7" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mx-auto">
+                        <h2 class="dot-circle">השירותים שייקחו את העסק שלכם קדימה
+                        </h2>
+                        <p class="text-muted lead">אנחנו מתמקדים במה שמקפיץ את העסק שלכם לרמה הבאה – תנו לנו לנהל את המורכבויות.
+                        </p>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="inputMessage">Message</label>
-                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your message"></textarea>
+                <div class="row mt-5">
+                    <div class="col-md-10 mx-auto">
+                        <div class="row card-services">
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="icon-box border-box">
+                                            <div class="icon-box-inner small-xs text-primary">
+                                                <span data-feather="crop" width="30" height="30"></span>
+                                            </div>
+                                        </div>
+                                        <h5 class="mt-0 mb-3">מענה חכם ללקוחות</h5>
+                                        מערכת AI שמספקת תשובות מיידיות לשאלות נפוצות, ומפנה פניות מורכבות לנציגי השירות המתאימים.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="icon-box border-box">
+                                            <div class="icon-box-inner small-xs text-primary">
+                                                <span data-feather="monitor" width="30" height="30"></span>
+                                            </div>
+                                        </div>
+                                        <h5 class="mt-0 mb-3">טיוטות מיילים בהתאמה אישית</h5>
+                                        אוטומציה שיוצרת טיוטות מיילים מותאמות אישית לסוגי תקשורת שונים, ומייעלת את תהליך התקשורת עם הלקוחות.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="icon-box border-box">
+                                            <div class="icon-box-inner small-xs text-primary">
+                                                <span data-feather="briefcase" width="30" height="30"></span>
+                                            </div>
+                                        </div>
+                                        <h5 class="mt-0 mb-3">הצעות מחיר דינמיות</h5>
+                                        כלי AI שמפיק הצעות מחיר מותאמות אישית, תוך שילוב נתוני הלקוח והתאמה אוטומטית לצרכיו.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="icon-box border-box">
+                                            <div class="icon-box-inner small-xs text-primary">
+                                                <span data-feather="smartphone" width="30" height="30"></span>
+                                            </div>
+                                        </div>
+                                        <h5 class="mt-0 mb-3">תובנות לשיפור תהליכים</h5>
+                                        מערכת AI חכמה שתספק לכם תובנות יקרות ערך לשיפור מתמיד בתהליכים, ולהגדלת היעילות העסקית שלכם.                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="icon-box border-box">
+                                            <div class="icon-box-inner small-xs text-primary">
+                                                <span data-feather="message-square" width="30" height="30"></span>
+                                            </div>
+                                        </div>
+                                        <h5 class="mt-0 mb-3">פילוח וניהול לידים</h5>
+                                        אוטומציה שמפצלת לידים לפי פוטנציאל המרה ומנהלת את תהליך המעקב אחריהם בצורה חכמה.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="icon-box border-box">
+                                            <div class="icon-box-inner small-xs text-primary">
+                                                <span data-feather="headphones" width="30" height="30"></span>
+                                            </div>
+                                        </div>
+                                        <h5 class="mt-0 mb-3">ניהול משימות אוטומטי</h5>
+                                        מערכת אוטומטית שמחלקת משימות בין צוותים, עוקבת אחר הביצוע ומזכירה פעולות חיוניות.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mx-auto text-center">
+                                <hr class="my-5"/>
+                                <h4>רוצים לדעת איך זה יעבוד אצלכם?</h4>
+                                <a href="#contact" class="btn btn-primary">גלו עכשיו</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <div class="container">
-            <p>&copy; 2024 Increaz.ai. All rights reserved.</p>
-        </div>
-    </footer>
+        <!--call to action-->
+        <section class="bg-hero py-8" style="background-image: url(img/parallex.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mx-auto text-center">
+                        <h2 class="text-white">אנחנו כאן כדי לעזור לכם לייעל את העסק ולהתקדם קדימה.</h2>
+                        <p class="lead text-white my-4">מוכנים להתחיל להטמיע אוטומציות חכמות בעסק שלכם?</p>
+                        <button class="btn btn-primary">קבלו ייעוץ אישי עכשיו והתחילו לגדול!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+        <!--process-->
+        <section class="py-7" id="process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mx-auto text-center">
+                        <h2>תהליך העבודה שלנו</h2>
+                        <p class="lead text-muted">
+                            אנחנו מתחילים בהבנת העסק שלכם ומסיימים כשהכל עובד חלק.                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-7 mx-auto timeline">
+                        <div class="media pb-5">
+                            <div class="icon-box mt-1">
+                                <div class="icon-box-inner small-xs text-primary">
+                                    <span data-feather="disc"></span>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h5>היכרות ראשונית</h5>
+                                <p class="text-muted">נפגש איתך ונבין מה בדיוק הצרכים והאתגרים שלך בעסק.</p>
+                            </div>
+                        </div>
+                        <div class="media pb-5">
+                            <div class="icon-box mt-1">
+                                <div class="icon-box-inner small-xs text-primary">
+                                    <span data-feather="copy"></span>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h5>תכנון פתרונות</h5>
+                                <p class="text-muted">נכין תכנית מותאמת אישית שתפצח את התהליכים שיכולים ליהנות מאוטומציה.</p>
+                            </div>
+                        </div>
+                        <div class="media pb-5">
+                            <div class="icon-box mt-1">
+                                <div class="icon-box-inner small-xs text-primary">
+                                    <span data-feather="box"></span>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h5>פיתוח והטמעה</h5>
+                                <p class="text-muted">בונים ומיישמים פתרונות בהתאמה אישית, עם התאמות מדויקות לכל עסק, כך שהמערכת שלכם תעבוד בצורה חלקה ומושלמת.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="icon-box mt-1">
+                                <div class="icon-box-inner small-xs text-primary">
+                                    <span data-feather="server"></span>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h5>הדרכה ותמיכה</h5>
+                                <p class="text-muted">נלמד את הצוות שלך איך להשתמש במערכת החדשה ונציע תמיכה מתמשכת כדי להבטיח שהכל עובד חלק.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-7">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h3 class="dot-circle dot-lg">תנו לנו להראות לכם את היתרונות.</h3>
+                        <p class="lead text-muted mb-4">נסו את האוטומציות שלנו ללא התחייבות ותראו בעצמכם איך הן יכולות לשפר את התפעול היומיומי שלכם. 
+                            קבלו הדגמה מותאמת אישית לעסק שלכם, ותגלו כמה זה פשוט להעלות את היעילות.
+                        </p>
+                        <a class="btn btn-primary page-scroll" href="#contact">התחילו עם הדגמה אישית לעסק שלכם
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--blog section-->
+        <!-- <section class="py-7 bg-light" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <h2 class="dot-circle">From our blog</h2>
+                        <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi commodo, tempus odio a, vestibulum nibh.</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6 mb-5">
+                        <div class="card">
+                            <a href="#">
+                                <img class="card-img-top" src="img/parallex.jpg" alt="Blog 1">
+                            </a>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">How to create a Bootstrap 4 template</h5>
+                                    <p class="card-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-5">
+                        <div class="card">
+                            <a href="#">
+                                <img class="card-img-top" src="img/parallex2.jpg" alt="Blog 2">
+                            </a>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">How to use social icons in Angular 4</h5>
+                                    <p class="card-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imper, consectetur adipiscing elit.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mx-auto text-center mt-5">
+                        <a href="#" class="btn btn-primary">Explore more posts</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--contact section-->
+        <section class="py-7" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h2>רוצה להתחיל עכשיו?</h2>
+                        <div class="divider bg-primary mx-auto"></div>
+                        <p class="text-muted lead">
+                            מוכנים לשדרג את העסק? אנחנו כאן כדי לסייע לכם לעשות את השינוי.                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-8 mx-auto">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="השם שלך">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email"  class="form-control" placeholder="כתובת אימייל">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="tel"  class="form-control" placeholder="מספר טלפון">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="url"  class="form-control" placeholder="האתר שלכם">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea rows="5"  class="form-control" placeholder="למה אתם זקוקים?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-primary">שלחו את ההודעה</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer / contact-->
+        <footer class="py-6 bg-light">
+            <div class="container">
+                <!-- <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Privacy</a></li>
+                            <li class="list-inline-item"><a href="#">Terms</a></li>
+                            <li class="list-inline-item"><a href="#">Affiliates</a></li>
+                            <li class="list-inline-item"><a href="#">Support</a></li>
+                            <li class="list-inline-item"><a href="#">Blog</a></li>
+                        </ul>
+                        <p class="text-muted small text-uppercase mt-4">
+                            Follow us on social media
+                        </p>
+                        <ul class="list-inline social social-dark social-sm">
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="row mt-5">
+                    <div class="col-12 text-muted text-center small-xl">
+                        &copy; 2024 Increaz.ai - All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--scroll to top-->
+        <div class="scroll-top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.5.0/feather.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
