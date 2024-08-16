@@ -391,36 +391,37 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-8 mx-auto">
-                        <form>
+                        <form  action="https://formspree.io/f/xqazlbdk"
+                        method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="השם שלך">
+                                        <input required name="name" type="text" class="form-control" placeholder="השם שלך">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email"  class="form-control" placeholder="כתובת אימייל">
+                                        <input required name="email" type="email"  class="form-control" placeholder="כתובת אימייל">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="tel"  class="form-control" placeholder="מספר טלפון">
+                                        <input name="tel" type="tel"  class="form-control" placeholder="מספר טלפון">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="url"  class="form-control" placeholder="האתר שלכם">
+                                        <input name="url" type="url"  class="form-control" placeholder="האתר שלכם">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea rows="5"  class="form-control" placeholder="למה אתם זקוקים?"></textarea>
+                                        <textarea name="message" rows="5"  class="form-control" placeholder="למה אתם זקוקים?"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="text-center mt-3">
-                                <button class="btn btn-primary">שלחו את ההודעה</button>
+                                <button class="btn btn-primary" type="submit">שלחו את ההודעה</button>
                             </div>
                         </form>
                     </div>
