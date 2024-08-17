@@ -391,8 +391,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-8 mx-auto">
-                        <form  action="https://formspree.io/f/xqazlbdk"
-                        method="POST">
+                        <form target="responseFrame" method="POST" action="https://formspree.io/f/xqazlbdk">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -424,6 +423,11 @@
                                 <button class="btn btn-primary" type="submit">שלחו את ההודעה</button>
                             </div>
                         </form>
+                        <!-- Hidden iframe for form submission -->
+        <iframe name="responseFrame" style="display:none;"></iframe>
+
+        <!-- Feedback area -->
+        <div id="feedback" class="alert mt-3 d-none" role="alert"></div>
                     </div>
                 </div>
             </div>
